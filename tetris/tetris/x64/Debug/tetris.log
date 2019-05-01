@@ -1,0 +1,78 @@
+﻿  game.cpp
+c:\programming\sfml projects\tetris\tetris\game.cpp(17): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+c:\programming\sfml projects\tetris\tetris\game.cpp(20): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+c:\programming\sfml projects\tetris\tetris\game.cpp(46): warning C4305: =: усечение из "double" в "float"
+c:\programming\sfml projects\tetris\tetris\game.cpp(49): warning C4305: =: усечение из "double" в "float"
+c:\programming\sfml projects\tetris\tetris\game.cpp(63): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+c:\programming\sfml projects\tetris\tetris\game.cpp(100): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+c:\programming\sfml projects\tetris\tetris\game.cpp(121): warning C4305: аргумент: усечение из "double" в "T"
+          with
+          [
+              T=float
+          ]
+c:\programming\sfml projects\tetris\tetris\game.cpp(130): warning C4244: =: преобразование "float" в "short", возможна потеря данных
+c:\programming\sfml projects\tetris\tetris\game.cpp(234): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\programming\sfml projects\tetris\tetris\game.cpp(235): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\programming\sfml projects\tetris\tetris\game.cpp(248): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+c:\programming\sfml projects\tetris\tetris\game.cpp(261): warning C4244: аргумент: преобразование "short" в "sf::Uint8", возможна потеря данных
+c:\programming\sfml projects\tetris\tetris\game.cpp(304): warning C4305: -=: усечение из "double" в "float"
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(16707566): warning C4244: аргумент: преобразование "_Cv_TiD" в "float", возможна потеря данных
+          with
+          [
+              _Cv_TiD=double
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(16707566): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Invoker_functor::_Call<void(__cdecl *&)(short *,short,float),_Cv_TiD&,int&,double&>(_Callable,_Cv_TiD &,int &,double &) noexcept(false)"
+          with
+          [
+              _Cv_TiD=short *,
+              _Callable=void (__cdecl *&)(short *,short,float)
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\type_traits(15732480): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::invoke<void(__cdecl *&)(short *,short,float),_Cv_TiD&,int&,double&>(_Callable,_Cv_TiD &,int &,double &) noexcept(false)"
+          with
+          [
+              _Cv_TiD=short *,
+              _Callable=void (__cdecl *&)(short *,short,float)
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(1857): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Invoker_ret<std::_Unforced,false>::_Call<void(__cdecl *&)(short *,short,float),_Cv_TiD&,int&,double&>(void (__cdecl *&)(short *,short,float),_Cv_TiD &,int &,double &)"
+          with
+          [
+              _Cv_TiD=short *
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\functional(1914): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Call_binder<std::_Unforced,0,1,2,void(__cdecl *)(short *,short,float),_Ty2,std::tuple<>>(std::_Invoker_ret<std::_Unforced,false>,std::integer_sequence<unsigned __int64,0,1,2>,_Cv_FD &,_Cv_tuple_TiD &,_Untuple &&)"
+          with
+          [
+              _Ty2=std::tuple<short *,int,double>,
+              _Cv_FD=void (__cdecl *)(short *,short,float),
+              _Cv_tuple_TiD=std::tuple<short *,int,double>,
+              _Untuple=std::tuple<>
+          ]
+  c:\programming\libraries\sfml-2.5.1\include\sfml\system\thread.inl(39): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Binder<std::_Unforced,void (__cdecl *)(short *,short,float),short *,int,double>::operator ()<>(void)"
+  c:\programming\libraries\sfml-2.5.1\include\sfml\system\thread.inl(39): note: выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Binder<std::_Unforced,void (__cdecl *)(short *,short,float),short *,int,double>::operator ()<>(void)"
+  c:\programming\libraries\sfml-2.5.1\include\sfml\system\thread.inl(39): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\programming\libraries\sfml-2.5.1\include\sfml\system\thread.inl(70): note: выполняется компиляция ссылки на экземпляр шаблон класс "sf::priv::ThreadFunctor<F>"
+          with
+          [
+              F=std::_Binder<std::_Unforced,void (__cdecl *)(short *,short,float),short *,int,double>
+          ]
+  c:\programming\sfml projects\tetris\tetris\game.cpp(133): note: выполняется компиляция ссылки на экземпляр шаблон функции "sf::Thread::Thread<std::_Binder<std::_Unforced,void (__cdecl *)(short *,short,float),short *,int,double>>(F)"
+          with
+          [
+              F=std::_Binder<std::_Unforced,void (__cdecl *)(short *,short,float),short *,int,double>
+          ]
+  tetris.vcxproj -> C:\programming\SFML projects\tetris\x64\Debug\tetris.exe
